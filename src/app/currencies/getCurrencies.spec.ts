@@ -1,4 +1,4 @@
-import {getCurriencies} from './getCurrencies';
+import {getCurrencies} from './getCurrencies';
 describe ('currencies', ()=>{
   it('should return the supported currencies', ()=>{
     const result = getCurrencies();
